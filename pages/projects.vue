@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-body">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
         <div class="absolute inset-0">
           <div class="bg-white h-1/3 sm:h-2/3"></div>
         </div>
@@ -15,6 +15,7 @@
             </p>
           </div>
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            <Project title="loghandler" license="open-source" link="https://github.com/math280h/loghandler" description="Logging module for python that supports sending logs to multiple endpoints at once" />
             <Project title="Hushbot" license="open-source" link="https://github.com/math280h/hushbot" description="Text Moderation bot for Discord." />
             <Project title="freeipa-docker" license="open-source" link="https://github.com/math280h/freeipa-docker" description="Simple script to create and delete freeipa-server inside docker." />
             <Project title="quick-serve" license="open-source" link="https://github.com/math280h/quick-serve" description="A very simple and limited HTTP Server" />
