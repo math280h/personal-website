@@ -15,6 +15,11 @@
             </p>
           </div>
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            <Image link="images/norway/20211219_153930.jpg"/>
+            <Image link="images/norway/20211220_095015.jpg"/>
+            <Image link="images/norway/20211223_123329.jpg"/>
+            <Image link="images/norway/20211223_125841.jpg"/>
+            <Image link="images/norway/20211226_091534.jpg"/>
             <Image link="images/20211008_192413.jpg"/>
             <Image link="images/20211016_171125.jpg"/>
             <Image link="images/IMG_20171110_115401.jpg"/>
