@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-    <div class="flex-1 bg-gray-900 p-6 flex flex-col justify-between">
+    <div class="flex-1 bg-gray-800 p-6 flex flex-col justify-between">
       <div class="flex-1">
         <p class="text-sm font-medium font-main text-red-400 cursor-default">
           {{ license }}
