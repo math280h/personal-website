@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900">
+  <div class="bg-primary">
     <div class="w-full mx-auto sm:px-6 h-hero flex justify-center align-middle">
       <div class="text-left w-full max-w-6xl flex justify-center flex-col">
         <h1 class="text-4xl tracking-tight font-extrabold text-white font-semibold font-main">
