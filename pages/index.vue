@@ -27,6 +27,7 @@
       </div>
       <div>
         <div class="mt-12 mx-auto grid gap-5 lg:grid-cols-3">
+          <Project title="terraform-elastic-cloud-private-link-aws" license="open-source" link="https://github.com/math280h/terraform-elastic-cloud-private-link-aws" description="Terraform module for Elastic Cloud deployments using AWS PrivateLink" />
           <Project title="redactdump" license="open-source" link="https://github.com/math280h/redactdump" description="Easily create database dumps with support for redacting data" />
           <Project title="loghandler" license="open-source" link="https://github.com/math280h/loghandler" description="Logging module for python that supports sending logs to multiple endpoints at once" />
           <Project title="Hushbot" license="open-source" link="https://github.com/math280h/hushbot" description="Text Moderation bot for Discord." />
@@ -34,7 +35,6 @@
           <Project title="quick-serve" license="open-source" link="https://github.com/math280h/quick-serve" description="A very simple and limited HTTP Server" />
           <Project title="batfu" license="open-source" link="https://github.com/math280h/batfu" description="Simple .bat obfuscator without any external packages." />
           <Project title="PyFileMovr" license="open-source" link="https://github.com/math280h/PyFileMovr" description="Quickly move files from a folder and subfolders to a single target" />
-          <Project title="SodukoSolver" license="open-source" link="https://github.com/math280h/SodukoSolver" description="Solves Soduko's and displays the answer via PyGame" />
         </div>
       </div>
     </div>
@@ -85,9 +85,17 @@
           </div>
         </div>
         <div class="mt-12">
+          <h3 class="font-main text-red-400">USA</h3>
+          <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            <Image link="images/us/20220207_132836.jpg"/>
+            <Image link="images/us/20220220_174102.jpg"/>
+          </div>
+        </div>
+        <div class="mt-12">
           <h3 class="font-main text-red-400">Somewhere in the air</h3>
           <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             <Image link="images/20211016_171125.jpg"/>
+            <Image link="images/20220114_080118.jpg"/>
           </div>
         </div>
       </div>
