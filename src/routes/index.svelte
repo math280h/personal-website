@@ -2,72 +2,37 @@
 	import Project from '../components/project.svelte';
 	import Image from '../components/image.svelte';
 
-	import Norway1 from '../images/norway/20211220_095015.jpg';
-	import Norway2 from '../images/norway/20211219_153930.jpg';
-	import Norway3 from '../images/norway/20211223_123329.jpg';
-	import Norway4 from '../images/norway/20211223_125841.jpg';
-	import Norway5 from '../images/norway/20211226_091534.jpg';
-
-	import Denmark1 from '../images/denmark/20211008_192413.jpg';
-	import Denmark2 from '../images/denmark/IMG_20190801_070910.jpg';
-	import Denmark3 from '../images/denmark/IMG_20191201_161906.jpg';
-	import Denmark4 from '../images/denmark/IMG_20200803_213157.jpg';
-	import Denmark5 from '../images/denmark/IMG_20200803_213211.jpg';
-	import Denmark6 from '../images/denmark/IMG_20210501_192611.jpg';
-	import Denmark7 from '../images/denmark/IMG_20210513_193206.jpg';
-	import Denmark8 from '../images/denmark/IMG_20210815_094702.jpg';
-	import Denmark9 from '../images/denmark/IMG_20210815_122328.jpg';
-	import Denmark10 from '../images/denmark/IMG_20210816_111512.jpg';
-	import Denmark11 from '../images/denmark/IMG_20210816_113313.jpg';
-
-	import France1 from '../images/france/IMG_20210623_160706.jpg';
-	import France2 from '../images/france/IMG_20210627_085541.jpg';
-	import France3 from '../images/france/IMG_20210701_141954.jpg';
-
-	import Sky1 from '../images/sky/20211016_171125.jpg';
-	import Sky2 from '../images/sky/20220114_080118.jpg';
-
-	import Us1 from '../images/us/20220207_132836.jpg';
-	import Us2 from '../images/us/20220220_174102.jpg';
-
-	import Canada1 from '../images/canada/IMG_20171110_115401.jpg';
+	import NorwayImages from '../images/norway/index';
+	import DenmarkImages from '../images/denmark/index';
+	import FranceImages from '../images/france/index';
+	import SkyImages from '../images/sky/index';
+	import UsImages from '../images/us/index';
+	import CanadaImages from '../images/canada/index';
 
 	const CountryImages = [
 		{
 			country: 'Norway',
-			content: [Norway1, Norway2, Norway3, Norway4, Norway5]
+			content: NorwayImages
 		},
 		{
 			country: 'Denmark',
-			content: [
-				Denmark1,
-				Denmark2,
-				Denmark3,
-				Denmark4,
-				Denmark5,
-				Denmark6,
-				Denmark7,
-				Denmark8,
-				Denmark9,
-				Denmark10,
-				Denmark11
-			]
+			content: DenmarkImages
 		},
 		{
 			country: 'France',
-			content: [France1, France2, France3]
+			content: FranceImages
 		},
 		{
 			country: 'US',
-			content: [Us1, Us2]
+			content: UsImages
 		},
 		{
 			country: 'Canada',
-			content: [Canada1]
+			content: CanadaImages
 		},
 		{
 			country: 'Sky',
-			content: [Sky1, Sky2]
+			content: SkyImages
 		}
 	];
 
@@ -173,7 +138,7 @@
 					<h3 class="font-main text-red-400">{country.country}</h3>
 					<div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 						{#each country.content as image}
-							<Image link={image} alt="Picture of {country.country}"/>
+							<Image link={image} alt="Picture of {country.country}" />
 						{/each}
 					</div>
 				</div>
