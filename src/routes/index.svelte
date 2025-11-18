@@ -38,6 +38,16 @@
 
 	const Projects = [
 		{
+			title: 'GreyDNS',
+			link: 'https://github.com/math280h/greydns',
+			description: 'K8S DNS Management for centralzied Ingress Patterns'
+		},
+		{
+			title: 'Wisp'
+			link: 'https://github.com/math280h/wisp',
+			description: 'Discord moderation bot written in Go'
+		},
+		{
 			title: 'aws-mq-rabbitmq-exporter',
 			link: 'https://github.com/math280h/aws-mq-rabbitmq-exporter',
 			description: 'AWS MQ RabbitMQ Exporter with Broker Autodiscovery'
@@ -93,7 +103,7 @@
 				Hi, I'm Thias. <br /> <span class="text-gray-400">I scale the unscalable.</span>
 			</h1>
 			<p class="mt-8 text-lg font-main text-gray-300 sm:mt-8">
-				I'm a Sr. DevOps Engineer who likes to work towards <br /> solving the problem of
+				I'm a Principal Software Engineer who likes to work towards <br /> solving the problem of
 				scalability, security and maintainability. <br /> I also like to take pictures, some of my personal
 				favorites you will find on here
 			</p>
